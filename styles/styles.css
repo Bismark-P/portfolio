@@ -1,0 +1,19 @@
+nav {
+    display: flex;
+    background-color: #53A0EA;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-white {
+    color: white
+}
+.text-bold {
+    font-weight: bold;
+}
+
+.text-color-red {
+    color: red;
+    border: 5px solid black;
+}
+
