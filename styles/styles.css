@@ -1,10 +1,10 @@
 nav {
     background-color: transparent;
     display: flex;
-    /* - */
+    /* backrgound color: #0979E4 */
     justify-content: space-around;
     align-items: center;
-    height: 80px;
+    height: 70px;
     position: fixed;
     left: 0;
     right: 0;
@@ -17,15 +17,23 @@ nav {
     justify-content: space-between;
 }
 
+.hithere {
+    background-color: white;
+    display: inline;
+    padding: 5px;
+    border-radius: 5px;
+}
+
 .text-white {
     color: white;
 }
+
 .text-bold {
     font-weight: bold;
 }
 
-.hero{
-    background-image: url(../Images/asset\ 0.jpeg);
+.hero {
+    background-image: url(../Images/asset0.jpeg);
     height: 100vh;
     background-size: cover;
     display: flex;
@@ -38,14 +46,88 @@ nav {
 .hero-content {
     width: 80%;
     margin: auto;
+    margin-top: 200px;
+}
+
+.maintext {
+    font-weight: bold;
+    font-size: xx-large;
 }
 
 .bio {
-    width: 60%;
-     /* line-height: 2.5; */
+    width: 50%;
+    line-height: 1.5;
+    margin-top: 20px;
 }
+
 .text-color-red {
     color: red;
     border: 5px solid black;
 }
 
+.button {
+    margin-top: 10px;
+    gap: 100px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: white;
+    display: inline;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.btnb {
+    background-color: rgb(73, 3, 202);
+    display: inline;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 20px;
+    margin-bottom: 100px;
+    color: white;
+}
+
+.bioT {
+background-color: blue;
+display: inline;
+border-radius: 10px;
+padding: 5px 10px;
+color: white;
+font-weight: bold;
+
+}
+
+.bioH {
+margin-bottom: 50px;
+}
+
+.story {
+  font-weight: bold; 
+  font-size: xx-large; 
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.storyn {
+  font-weight: bold;
+  font-size:large;
+  margin-top: 30px;  
+  margin-bottom: 10px;
+    line-height: 1.5;
+}
+.farfar {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.far {
+    color: rgba(0, 0, 0, 0.5);
+}
+.mm {
+    width: 35%;
+    margin-left: 5px;
+}
